@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2,
+  h3 {
+    color: #00a2c6;
+  }
+
+  h2 {
+    margin: 5px;
+  }
+  
+  footer {
+    padding: 20px;
+    color: white;
+    background-color: #c1ab03;  
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav a:hover {
+    font-weight: bold;
+  }
+  
+  .profile header {
+    text-align: center;
+  }
+  
+  
+  .jumbotron {
+    font-size: 20px;
+    padding: 40px;
+    background-color: #ebd10b;
+    text-align: center;
+    color: white;
+  }
+  
+  nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  
+  nav {
+    background-color: #c1ab03;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+  }
+  
+  main {
+    padding: 20px;
+    overflow: auto;
+  }
+  
+  #content {
+    float: left;
+    width: 75%;
+  }
+  
+  aside {
+    display: grid;
+    float: left;
+    width: 35%;
+    padding-left: 5px;
+  }
+  
+  header {
+    display: inline;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .container {
+    /* display: flex; */
+    justify-content: space-between;
+  }
+  
+  .top-section,
+  .bottom-section {
+    width: auto; 
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .menu-container {
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  
+  .menu-card {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 10px;
+    display: inline-block;
+    vertical-align: top; 
+    overflow: hidden;
+  }
+  
+  
+  .menu-card img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  
+  .menu-card .content {
+    padding: 20px;
+  }
+  
+  .menu-card h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .menu-card p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .menu-card .price {
+    font-weight: bold;
+    color: #007bff;
+  }
